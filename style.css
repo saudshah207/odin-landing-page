@@ -4,9 +4,17 @@
     padding: 0;
 }
 
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
     background-color: #1f2937;
     padding: 15px 0;
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
