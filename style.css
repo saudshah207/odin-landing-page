@@ -17,7 +17,7 @@ button {
 }
 
 .content {
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 
@@ -81,7 +81,7 @@ a {
 
 .hero-title,
 .secondary-text {
-    margin-right: 25%;
+    margin-right: 11%;
 }
 
 .secondary-text {
@@ -121,7 +121,7 @@ a {
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
