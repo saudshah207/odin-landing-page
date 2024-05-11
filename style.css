@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap'); /* Get Roboto font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap'); /* Get Roboto font from Google */
 
 * {
     box-sizing: border-box;
@@ -139,4 +139,33 @@ a {
 
 .subtext {
     color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote p,
+.quote span {
+    color: #1f2937;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote span {
+    font-size: 24px;
+    font-weight: 700;
 }
