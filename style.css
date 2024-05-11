@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Get Roboto font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap'); /* Get Roboto font from Google */
 
 * {
     box-sizing: border-box;
@@ -35,7 +35,7 @@ header {
 .logo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .navigation-links {
@@ -75,7 +75,7 @@ a {
 
 .hero-title {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -111,7 +111,7 @@ a {
 
 .information-title {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
     color: #1f2937;
     margin-bottom: 50px;
 }
