@@ -7,7 +7,13 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit; /* to make sure font family is inherited and override user agent specified font-family declaration */
 }
 
 .content {
@@ -45,4 +51,55 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-section {
+    background: #1f2937;
+    padding: 100px 0;
+}
+
+.hero-content {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
+
+.image-column {
+    display: flex; /* to center placeholder text */
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.title,
+.secondary-text {
+    margin-right: 25%;
+}
+
+.secondary-text {
+    margin-bottom: 12.5px;
+}
+
+.secondary-text,
+.placeholder-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section button {
+    background-color: #3882f6;
+    border: none;
+    padding: 7.5px 25px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-weight: 700;
+    font-size: 16px;
 }
