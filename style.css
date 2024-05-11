@@ -73,13 +73,13 @@ a {
     background: rgba(255, 255, 255, 0.4);
 }
 
-.title {
+.hero-title {
     font-size: 48px;
     font-weight: 700;
     color: #f9faf8;
 }
 
-.title,
+.hero-title,
 .secondary-text {
     margin-right: 25%;
 }
