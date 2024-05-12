@@ -16,30 +16,39 @@ button {
     font-family: inherit; /* to make sure font family is inherited and override user agent specified font-family declaration */
 }
 
+.text-center {
+    text-align: center; /* utility class for horizontally centering text */
+}
+
+.flex {
+    display: flex; /* utility class for making flex containers */
+}
+
 .content {
     max-width: 1050px;
     margin: 0 auto;
 }
 
 header {
-    background-color: #1f2937;
     padding: 15px 0;
 }
 
+header,
+footer {
+    background-color: #1f2937;
+}
+
 .header-content {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
 }
 
 .navigation-links {
-    display: flex;
     gap: 25px;
 }
 
@@ -49,8 +58,6 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 .hero-section {
@@ -58,16 +65,11 @@ a {
     padding: 100px 0;
 }
 
-.hero-content {
-    display: flex;
-}
-
 .column {
     flex: 1;
 }
 
 .image-column {
-    display: flex; /* to center placeholder text */
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.4);
@@ -76,6 +78,10 @@ a {
 .hero-title {
     font-size: 48px;
     font-weight: 900;
+}
+
+.logo,
+.hero-title{
     color: #f9faf8;
 }
 
@@ -88,9 +94,17 @@ a {
     margin-bottom: 12.5px;
 }
 
+a,
 .secondary-text,
 .placeholder-text {
     font-size: 18px;
+}
+
+a,
+.secondary-text,
+.placeholder-text,
+button,
+footer {
     color: #e5e7eb;
 }
 
@@ -99,25 +113,28 @@ button {
     border: none;
     padding: 6px 30px;
     border-radius: 7.5px;
-    color: #e5e7eb;
     font-weight: 700;
     font-size: 16px;
 }
 
-.information-content {
-    text-align: center; /* centers all text in information section */
+.information-section {
     padding: 45px 0 90px 0;
 }
 
 .information-title {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
     margin-bottom: 50px;
 }
 
+.information-title,
+.subtext,
+.quote p,
+.quote span {
+    color: #1f2937;
+}
+
 .information-cards {
-    display: flex;
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
@@ -137,10 +154,6 @@ button {
     margin-bottom: 10px;
 }
 
-.subtext {
-    color: #1f2937;
-}
-
 .quote-section {
     background-color: #e5e7eb;
     padding: 100px 0;
@@ -149,14 +162,8 @@ button {
 .quote {
     width: 80%;
     margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    align-items: flex-end;
-}
-
-.quote p,
-.quote span {
-    color: #1f2937;
+    align-items: flex-end; /* to align the span flex item to the far right */
 }
 
 .quote p {
@@ -178,7 +185,6 @@ button {
     padding: 50px 125px;
     background-color: #3882f6;
     color: #e5e7eb;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -191,7 +197,6 @@ button {
 
 .button-column {
     flex: 1;
-    display: flex;
     align-items: center;
     justify-content: flex-end;
 }
@@ -201,8 +206,5 @@ button {
 }
 
 footer {
-    background-color: #1f2937;
-    color: #e5e7eb;
-    text-align: center;
     padding: 40px 0;
 }
